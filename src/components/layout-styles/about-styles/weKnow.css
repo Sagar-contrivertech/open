@@ -1,0 +1,107 @@
+.weKnow{
+    padding: 70px 130px;
+}
+.weTitle{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    margin-bottom: 30px;
+}
+.weTitle span{
+    color: var(--lightred);
+}
+
+.weImg{
+    border-left: 12px solid #C8D4FF;
+    border-radius: 8.46162px;
+}
+.vision{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 21px;
+    line-height: 26px;
+    margin-bottom: 22px;
+}
+.vision span{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: var(--lightblur);
+}
+.user{
+    display: flex;
+}
+.user img{
+    height: 55px;
+    width: 55px;
+    margin-right: 7px;
+}
+.ti{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+.tiDesc{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+.mobImg{
+    display: none;
+}
+@media screen and (max-width: 786px) {
+    .weKnow{
+        padding: 15px 18px 30px;
+    }
+    .weTitle{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .weImg{
+        width: 100%;
+        border-top: 6px solid #C8D4FF;
+        border-left: 6px solid #C8D4FF;
+    }
+    .vision{
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 22px;
+    }
+    .vision span{
+        font-size: 20px;
+        line-height: 26px;
+        color: var(--lightblur);
+    }
+    .user img{
+        display: none;
+    }
+    .ti{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .tiDesc{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .mobImg{
+        display: inline;
+        height: 55px;
+        width: 55px;
+        margin-right: 7px;
+    }
+}

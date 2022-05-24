@@ -1,0 +1,249 @@
+/* copy code  */
+.faq-section{
+    width: 100%;
+}
+.faq-section .container{
+    max-width: 1240px;
+}
+.faq-main-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    /* identical to box height, or 135% */
+
+    text-align: center;
+
+    /* Dark/Main */
+
+    color: #182F43;
+}
+
+.faq-small-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+
+    text-align: center;
+
+    margin-bottom: 35px;
+
+    /* Dark/Main */
+
+    color: #182F43;
+}
+
+.faq-content-box {
+    max-width: 1001px;
+    /* height: 427px; */
+    height: auto;
+
+
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* padding: 50px 160px 0px 128px;  */
+    padding: 0 80px 0 80px;
+
+    background: #F2F9FF;
+    box-shadow: 0px 0px 4px #FD8274;
+    border-radius: 40px;
+
+    margin-bottom: 149px;
+
+}
+
+.faq-content-box-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    background-color: none !important;
+    /* Dark/Main */
+
+    color: #182F43;
+
+
+}
+
+/* .accordion {
+    border-radius:0px;
+    height:10px;
+} */
+.faq-bg-img-1 {
+    z-index: -4;
+    margin-left: 101px;
+    margin-top: 40px;
+
+}
+
+.faq-bg-img-2 {
+    z-index: -1;
+    margin-right: 60px;
+    margin-bottom: -80px;
+
+}
+
+
+.accordion-button:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: none !important;
+    box-shadow: none !important;
+}
+
+.accordion-button,
+.accordion-body {
+    background-color: #F2F9FF !important;
+    text-align: left !important;
+}
+
+.accordion-item {
+    background-color: none !important;
+    border: none !important;
+}
+
+.accordion{
+    margin: 55px 0px !important;
+}
+/* .accordion-button {
+    color:  #0F43F9;
+} */
+
+@media screen and (max-width : 576px) {
+    .faq-content-box {
+        width: 90%;
+        height: auto;
+        padding: 0 0px 0 0px;
+    }
+
+    .faq-content-box-text {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .faq-bg-img-1 {
+        width: 80px;
+        height: 80px;
+        margin-top: 135px;
+        margin-left: 20px !important;
+    }
+
+    .faq-bg-img-2 {
+        width: 80px;
+        height: 80px;
+        margin-bottom: -31px;
+        margin-right: 20px !important;
+    }
+
+    .faq-main-text {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 44px;
+    }
+
+    .faq-small-text {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .accordion{
+        margin-top: 26px !important;
+        margin-bottom: 26px !important;
+    }
+
+
+}
+/* copy code  */
+
+
+
+/* .faq-main-text{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px; */
+/* identical to box height, or 135% */
+
+/* text-align: center; */
+
+/* Dark/Main */
+
+/* color: #182F43; */
+/* } */
+
+/* .faq-small-text {
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px; */
+/* identical to box height, or 111% */
+
+/* text-align: center; */
+
+/* Dark/Main */
+
+/* color: #182F43;
+} */
+
+/* .faq-content-box {
+width: 90%;
+height: auto;
+left: -102px;
+top: -83px;
+
+margin: auto;
+display: flex;
+justify-content: center;
+text-align: center;
+padding: 20px;
+
+background: #F2F9FF;
+box-shadow: 0px 0px 4px #FD8274;
+border-radius: 40px;
+}
+
+.faq-content-box-text {
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px; */
+/* identical to box height, or 133% */
+/* background-color: none !important; */
+/* Dark/Main */
+
+/* color: #182F43;
+} */
+
+/* .accordion {
+    border-radius:0px;
+    height:10px;
+} */
+
+/* .accordion-button:focus {
+    border-color : none !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: none !important;
+    box-shadow: none !important;
+} */
+
+/* .accordion-button {
+    color:  #0F43F9;
+} */

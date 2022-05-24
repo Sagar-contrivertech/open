@@ -1,0 +1,111 @@
+.advice{
+    padding: 72px 70px;
+    background: linear-gradient(127.95deg, #F1F5FF 13.9%, #F1F5FF 27.16%, #FEFFFE 45.17%);
+    background-blend-mode: darken;
+}
+.advice .container{
+    width: 1263px;
+}
+.ad_inner{
+    padding: 0 10px;
+}
+.titleBox{
+    margin-bottom: 35px;
+}
+.adv-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 121px;
+    line-height: 229px;
+
+    background: linear-gradient(180deg, #FFFFFF 50%, rgba(254, 254, 254, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.video_advice{
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+    border: 10px solid #131E80;
+}
+
+.adv_desc{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    /* identical to box height, or 109% */
+    color:  var(--lightred);
+    margin-top: -75px;
+}
+.bookTitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 69px;
+    line-height: 85px;
+
+    color: #000000;
+}
+.expTxt{
+    color: var(--lightred);
+}
+.uList{
+    margin-top: 25px;
+}
+.uList li{
+    margin-bottom: 20px;
+}
+.getTouchBtn{
+    background: #3D6ED7;
+    border-radius: 5px;
+    padding: 14px 38px;
+}
+
+@media screen and (max-width : 786px) {
+    .advice{
+        padding: 20px 23px 41px 23px;
+    }
+    .titleBox{
+        text-align: center;
+        margin-bottom: 11px;
+    }
+    .adv-title{
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 68px;
+    }
+    .adv_desc{
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 30px;
+        margin-top: -20px;
+    }
+    .video_advice{
+        width: 246px;
+        height: 246px;
+    }
+    .bookTitle{
+        font-weight: 500;
+        font-size: 26.8469px;
+        line-height: 45px;
+        text-align: center;
+    }
+    .book-cont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .uList{
+        display: flex;
+    }
+
+    .uList li{
+        margin-right: 30px;
+    }
+}

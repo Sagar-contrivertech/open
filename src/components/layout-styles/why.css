@@ -1,0 +1,162 @@
+.title_container{
+    text-align: center;
+}
+.why-container .container{
+    width: 1263px;
+}
+.why_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 152.667px;
+    line-height: 229px;
+
+    background: linear-gradient(181.94deg, #C8D4FF 25.97%, rgb(254 254 254 / 0%) 72.05%, rgb(254 254 254 / 0%) 10.56%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.why_desc{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    /* identical to box height, or 109% */
+    color:  var(--lightred);
+    margin-top: -75px;
+}
+
+.box_why{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.empower_txt{
+    font-family: 'DM Sans';
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+}
+
+.blue_txt{
+    color: var(--lightblur);
+    position: relative;
+}
+
+.org_txt{
+    color: var(--lightred);
+    position: relative;
+}
+
+.emp_desc{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    max-width: 504px;
+    margin-top: 26px;
+    margin-bottom: 50px;
+}
+
+.emp_box{
+    height: 170px;
+    width: -webkit-fill-available;
+    border: 1px solid #1A2DD8;
+    box-shadow: 1px 1px 10px rgba(253, 130, 116, 0.5);
+    border-radius: 10px;
+    padding: 28px 40px;
+    margin-bottom: 42px;
+    display: flex;
+    /* max-width: 567px; */
+    max-width: 700px;
+}
+
+.emp_box img{
+    margin-right: 21px;
+    width: 48px;
+    height: 48px;
+}
+.emp_box_title{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+}
+.why-container{
+    margin-bottom: 98px;
+}
+
+.bg-custom-red{
+    background-color: var(--lightred);
+}
+@media screen and (max-width : 786px) {
+    .emp_box{
+        height: 80px;
+    }
+    .why_title{
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .why_desc{
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 8px;
+        margin-top: -20px;
+    }
+    .box_why img{
+        width: 94px;
+        height: 94px;
+        margin-top: 23px;
+    }
+    .empower_txt{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .emp_desc{
+        font-weight: 400;
+        font-size: 9px;
+        max-width: 277px;
+        margin-top: 15px;
+        margin-bottom: 27px;
+        line-height: 14px;
+    }
+    .emp_box{
+        padding: 14px 32px;
+        margin-bottom: 23px;
+        width: 95%;
+    }
+    .box_why .emp_box img{
+        margin-right: 12px;
+        width: 26px;
+        height: 26px;
+        margin-top: 0;
+    }
+    .emp_box p{
+        font-size: 9px;
+        line-height: 14px;
+    }
+    .emp_box_title{
+        font-size: 12px;
+        line-height: 19px;
+    }
+    
+    
+    .why-container{
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .emp_box{
+        height: fit-content;
+    }    
+}

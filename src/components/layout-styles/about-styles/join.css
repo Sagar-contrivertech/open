@@ -1,0 +1,180 @@
+.joinUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 121px;
+    z-index: 9;
+}
+.joinTitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 150px;
+    line-height: 225px;
+    /* identical to box height */
+    background: linear-gradient(181.94deg, #C8D4FF 40.5%, rgba(254, 254, 254, 0) 85.25%, rgba(254, 254, 254, 0) 142.56%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
+}
+.joinDesc{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 127% */
+    color: var(--lightred);
+    margin-bottom: 67px;
+    text-align: center;
+    margin-top: -70px;
+}
+.team-img-cont{
+    position: relative;
+}
+.team-back-mesh{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    z-index: -1;
+}
+.team-text{
+    position: absolute;
+    color: #3B71FE;
+    top: 50px;
+    left: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+.team-arrow{
+    position: absolute;
+    top: 80px;
+    left: -100px;
+    z-index: 10;
+}
+.teamImg{
+    margin: 0 auto;
+    z-index: 9;
+}
+.joinUsBox{
+    padding: 27px 38px 24px;
+    border: 7px solid var(--lightred);
+    border-radius: 50px;
+    margin-bottom: 82px;
+    margin-top: -2px;
+    position: relative;
+    background-color: white;
+}
+.dots-bot{
+    position: absolute;
+    bottom: -52px;
+    right: -52px;
+    z-index: -1;
+}
+.joinCont{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    /* or 146% */
+    text-align: center;
+}
+.box-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.call{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-decoration: none;
+    margin-right: 41px;
+    color:  #1A2DD8;
+}
+.divider{
+    height: 78px;
+    width: 2px;
+    background-color: #FD8274;
+}
+.mail{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-decoration: none;
+    margin-left: 41px;
+    color:  #1A2DD8;
+    display: flex;
+    align-items: center;
+}
+.call img{
+    margin-right: 25px;
+    width: 37px;
+    height: 37px;
+}
+.mail img{
+    margin-right: 25px;
+    width: 37px;
+    height: 37px;
+}
+
+@media screen and (max-width: 786px) {
+    .joinUs{
+        padding: 20px;
+    }
+    .teamImg, .team-arrow, .team-text, .team-back-mesh{
+        display: none;
+    }
+    .joinTitle{
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .joinDesc{
+        font-size: 9px;
+        line-height: 14px;
+        margin-top: -25px;
+        margin-bottom: 21px;
+    }
+    .joinUsBox{
+        border: 3px solid var(--lightred);
+    }
+    .joinCont{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .box-contact{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .call{
+        font-size: 18px;
+        line-height: 14px;
+        margin-right: 0;
+        margin-bottom: 14.27px;
+    }
+    .mail{
+        font-size: 18px;
+        line-height: 14px;
+        margin-left: 0;
+    }
+    .dots-bot{
+        display: none;
+    }
+}
+
+@media screen and (max-width : 567px){ 
+    .joinUs{
+        background-color: #F9F9FA;
+    }
+    .top-sec-img, .divider {
+        display: none;
+    }
+}

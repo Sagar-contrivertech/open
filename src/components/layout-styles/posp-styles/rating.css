@@ -1,0 +1,93 @@
+
+.Rating{
+    margin: 74px 0px 53px 0px;
+}
+
+.Rating .container{
+    width: 1240px;
+}
+
+.Rating .row{
+    height: 50px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row .col-md-4{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.rating-star{
+    height: 30px;
+}
+
+.row .mini-p-rating{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 13px;
+}
+
+.rating-star-text{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    /* identical to box height, or 135% */
+    
+   
+    
+    /* Dark/Main */
+    
+    color: #182F43;
+}
+
+
+@media screen and (max-width : 576px) {
+    .rating-star {
+        display: flex;
+        justify-content: center !important;
+        margin-top: 10px ;
+    }
+    .rating-star-text {
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center !important;
+    } 
+    .row .col-md-4{
+        justify-content: center;
+    }
+    .Rating .row{
+        height: auto;
+    }
+    /* .row .col-md-8{
+        display: none;
+    } */
+    .rating-star .rating-star-text p{
+        display: none;
+    }
+    .row .mini-p-rating{
+        width: 80%;
+        margin-top: 51px;
+        text-align: center;
+    }
+    .Rating{
+        margin: 21px 0px 21px 0px;
+    }
+}
+
+
+@media screen and (max-width:786px) {
+    .rating-star-text{
+        text-align: left;
+        font-size: 20px;
+    }
+}

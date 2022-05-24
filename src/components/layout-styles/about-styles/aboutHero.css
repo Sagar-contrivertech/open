@@ -1,0 +1,119 @@
+.about {
+  background: linear-gradient(90deg, #e9eefc 0%, rgba(196, 196, 196, 0) 100%);
+}
+.atb-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 150px;
+  line-height: 225px;
+  /* identical to box height */
+
+  background: linear-gradient(
+    180deg,
+    #ffffff 40.85%,
+    #ffffff 48.31%,
+    rgba(254, 254, 254, 0.0142958) 67.96%,
+    rgba(254, 254, 254, 0) 85.43%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.title {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.atb-ti-desc {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  margin-top: -65px;
+  color: var(--lightblur);
+  margin-bottom: 56px;
+}
+
+.mainAtb {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 62px;
+  /* or 124% */
+
+  text-align: center;
+}
+
+.contentAtb {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+
+  text-align: justify;
+
+  color: rgba(14, 14, 44, 0.6);
+  margin-top: 30px;
+  max-width: 732px;
+}
+
+.org {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: var(--lightred);
+}
+.co-fou {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--lightblur);
+  margin-top: 7px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 786px) {
+  .atb-title {
+    font-size: 45px;
+    line-height: 68px;
+  }
+  .atb-ti-desc {
+    font-size: 10px;
+    line-height: 171.5%;
+    margin-top: -30px;
+    margin-bottom: 10px;
+  }
+  .mainAtb {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .contentAtb {
+    font-size: 10px;
+    line-height: 16px;
+    margin-top: 13px;
+  }
+  .sign {
+    width: 69px;
+    height: 43px;
+    margin-top: 17px;
+    margin-bottom: 7px;
+  }
+  .co-fou,
+  .org {
+    font-size: 9.13742px;
+    line-height: 14px;
+  }
+}

@@ -1,0 +1,99 @@
+.team{
+    padding: 190px 160px;
+    background-color: #A0A4AB1A;
+}
+
+.theTeam{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: var(--lightblur);
+}
+
+.teamTxt{
+    width: 352px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+}
+.redAwe{
+    color: var(--lightred);
+}
+.blu{
+    color: var(--lightblur);
+}
+.teamMain{
+    display: flex;
+    flex-direction: row;
+    
+}
+.pName{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 13px;
+}
+.designation{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(14, 14, 44, 0.6);
+    margin-top: 15px;
+}
+.personBox{
+    display: flex;
+    /* max-width: 500px; */
+    max-height: 500px;
+}
+.personImg{
+    margin-right: 26px;
+}
+.personImg:hover{
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12), 0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+    border-radius: 24px;
+    transition: 0.3s;
+}
+
+
+
+@media screen and (max-width: 786px) {
+    .team{
+        padding: 22px 32px;
+    }
+    .teamMain{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .personImg{
+        margin: 0 auto;
+    }
+    .theTeam{
+        font-size: 14px;
+        line-height: 171.5%;
+    }
+    .teamTxt{
+        width: unset;
+        font-size: 22px;
+        line-height: 33px;
+        margin-bottom: 18px;
+    }
+    .pName{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .designation{
+        font-size: 18px;
+        line-height: 27px;
+        margin-top: 1px;
+    }
+}

@@ -1,0 +1,9 @@
+.service-blocks {
+  max-width: 320px;
+}
+
+@media screen and (max-width: 786px) {
+  .service-blocks {
+    max-width: 100% !important;
+  }
+}

@@ -1,0 +1,75 @@
+.steps{
+    /* padding: 100px; */
+    padding: 100px 0px;
+    margin: 0 auto;
+}
+.steps .container{
+    padding: 0px 20px;
+    width: 1240px;
+}
+.QuickState{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.QuickState-box {
+     background: #FFFFFF;
+    border: 1px solid #FD8274;
+    box-shadow: 0px 64px 194px rgba(27, 143, 251, 0.1);
+    border-radius: 22px;
+    padding: 41px 37px 44px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.QuickState-main-text{
+    /* width: 331px;
+    height: 92px; */
+    /* left: 164px;
+    top: 2068px; */
+    
+    /* Headings/Typography Size 2 */
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 46px;
+    /* or 135% */
+    
+    
+    color: #236FE1;
+}
+
+.QuickState-text-2{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+color: #64607D;
+}
+
+
+@media screen and (max-width : 768px){
+    .steps{
+        padding: 0px;
+    }
+    .QuickState-main-text{
+         font-weight: 800;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #236FE1; 
+        margin-bottom: 22px;
+    }
+    .QuickState-text-2{
+        font-size: 24px;
+        line-height: 26px;
+    }
+}

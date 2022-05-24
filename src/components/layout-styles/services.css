@@ -1,0 +1,234 @@
+.services-container{
+    background: linear-gradient(179.73deg, #FFFFFF -2.82%, #F1F5FF 2.4%, #FEFFFE 124.09%);
+    background-blend-mode: darken;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+.serTitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 150px;
+    line-height: 225px;
+    background: linear-gradient(180deg, #FFFFFF 50%, rgba(254, 254, 254, 0) 87.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.serDesc{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--lightred);
+    margin-top: -70px;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.ser-blue{
+    color: var(--lightblur);
+}
+.polEra{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 58px;
+    margin-top: 10px;
+}
+ 
+.serviceBoxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.boxServ{
+    background: #FFFFFF;
+    border-radius: 5px;
+    /* padding: 27px 33px; */
+    /* max-width: 380px; */
+    max-width: 360px;
+    padding: 27px 35px;
+    position: relative;
+    margin-right: 10px;
+    /* margin: 0px 6px; */
+    margin-bottom: 80px;
+    
+}
+.boxServ:hover{
+    border: 8px solid var(--lightred);
+}
+.boxServ:hover .bluBox{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+.bluBox{
+    margin-right: 14px;
+}
+.boxInTitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+}
+.boxInDesc{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 12px;
+}
+.services-heading{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    /* identical to box height, or 124% */
+
+    text-align: center;
+
+    color: #2D74FF !important;
+}
+.services-mini-heading{
+    font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+/* or 111% */
+
+text-align: center;
+
+/* Dark/Main */
+
+color: #182F43;
+max-width: 525px;
+}
+.services-page{
+    width: 100%;
+}
+.services-page .container{
+    width: 1240px;
+}
+
+.badge{
+    width: 48px;
+height: 47.38px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* White / Main */
+
+color: #FFFFFF;
+
+}
+.badge-heading{
+    font-weight: 700;
+font-size: 22px;
+line-height: 28px;
+margin-top: 12px;
+margin-bottom: 8px;
+}
+
+.badge-para{
+    font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+}
+/* .boxServMar{ */
+    /* margin: 0px 20px; */
+/* } */
+.services-container > .container{
+    width: 1263px;
+    margin: auto;
+}
+@media screen and (max-width : 786px) {
+    .serTitle{
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .serDesc{
+        margin-top: -30px;
+        font-size: 8px;
+        line-height: 20px;
+    }
+    .polEra{
+        font-size: 12.5161px;
+        line-height: 15px;
+    }
+    .bluBox{
+        width: 32px;
+        height: 32px;
+    }
+    .boxInTitle{
+        font-size: 15px;
+line-height: 18px;
+    }
+    .boxInDesc{
+        font-size: 10px;
+line-height: 13px;
+    }
+    .boxServ{
+        margin-bottom: 28px;
+        padding: 20px 32px;
+        max-width: 300px !important;
+    }
+    .services-container .title{
+        margin-bottom: 30px !important;
+    }
+    .services-heading{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 52px;
+    }
+    .services-mini-heading{
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+    }
+    .badge{
+        width: 47px;
+        text-align: center;
+        height: 48px;
+
+/* font-family: 'Font Awesome 5 Free'; */
+font-style: normal;
+/* font-weight: 900; */
+/* font-size: 42px; */
+/* line-height: 48px; */
+display: flex;
+align-items: center;
+
+    }
+    .badge-heading{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .badge-para{
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .align-items-center.px-5{
+        padding: 10px !important;
+    }
+}
